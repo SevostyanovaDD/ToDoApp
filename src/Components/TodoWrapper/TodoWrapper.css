@@ -1,0 +1,80 @@
+.wrapper{
+    margin: 0 auto;
+    border-radius: 33px;
+    width: 500px;
+    min-height: 800px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(71, 13, 50);
+}
+.wrapper-up{
+    height: 200px;
+    color: rgb(255, 255, 255);
+}
+.wrapper-up-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wrapper-up-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.wrapper-main{
+    border-start-start-radius: 40px;
+    border-start-end-radius: 40px;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.wrapper-main-title{
+    font-size: 25px;
+    padding: 50px 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper-up-add{
+    border: 1px solid rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.wrapper-up-calendar{
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.task-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.task-form input {
+    padding: 8px;
+    border: 1px solid rgb(205, 204, 204);
+    border-radius: 4px;
+}
+
+.task-form button {
+    padding: 8px;
+    background-color: rgb(71, 13, 50);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.task-form button:hover {
+    background-color: rgb(170, 168, 168);
+}

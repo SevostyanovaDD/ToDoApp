@@ -1,0 +1,42 @@
+.taskWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(107, 106, 106);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    margin: 10px auto;
+    width: 480px;
+}
+.task-date {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.task-text {
+    flex-grow: 1;
+    padding-left: 30px;
+    margin: 0 10px;
+}
+.task-title {
+    font-weight: 600;
+}
+.task-subtitle {
+    font-size: 14px;
+    color: rgb(74, 73, 73);
+}
+.task-checked input {
+    cursor: pointer;
+}
+.task-delete {
+    cursor: pointer;
+    padding: 20px;
+}
+.completed {
+    text-decoration: line-through; 
+    opacity: 0.7; 
+}
+.completedBackground{
+    background-color: rgba(71, 13, 50, 0.265);
+}
